@@ -1,1 +1,4 @@
-site_name: My Docs
+site_name: Le blog du tavernier
+theme:
+    name: simple-blog
+    favicon: img/favicon.ico
