@@ -4,4 +4,3 @@
 
 Bienvenue à toi voyageur !
 
-Tu te trouve ici dans un espace de réflexion.
