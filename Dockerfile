@@ -8,5 +8,6 @@ COPY src/ .
 RUN mkdocs build
 
 
-FROM nginx:latest
+FROM nginx:1.27.5-alpine-slim
+COPY conf/nginx.conf /etc/nginx/nginx.conf
 COPY --from=builder /code/site /usr/share/nginx/html
