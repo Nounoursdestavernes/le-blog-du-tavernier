@@ -2,3 +2,12 @@ site_name: Le blog du tavernier
 theme:
     name: simple-blog
     favicon: img/favicon.ico
+    logo: img/logo.jpg
+    components:
+      footer: false
+      title: false
+      preview: false
+      site:name_style: bold
+plugins: []
+extra_css:
+  - stylesheets/extra.css
